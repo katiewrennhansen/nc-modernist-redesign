@@ -1470,6 +1470,20 @@ footer hr {
     opacity: 0;
 }
 
+.architect-links a {
+	font-size: 13px;
+	margin: 0 5px;
+}
+
+.architect-links h5 {
+	padding-top: 10px;
+	color: #000;
+}
+
+.architect-locations a {
+	margin: 0 5px;
+}
+
 .socialmedia a i {
 	font-size: 25px;
 }

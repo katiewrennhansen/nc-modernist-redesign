@@ -1,19 +1,12 @@
-
 <!DOCTYPE html>
 <html>
-<!-- #BeginTemplate "main.dwt" -->
+
 <head>
-<base href="https://www.ncmodernist.org/">
-<title>NCModernist</title>
 <meta charset="UTF-8">
 <!-- #BeginEditable "description" -->
-<meta content="NCModernist" name="NCModernist">
-
 <!-- #EndEditable -->
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One|Oswald:300" rel="stylesheet" type="text/css">
-<link href="https://katiewrennhansen.github.io/nc-modernist-redesign/css/default.css" media="screen" rel="stylesheet" type="text/css">
-<!-- <link href="file:///Users/kawrenn/Desktop/nc_modernist/css/default.css" media="screen" rel="stylesheet" type="text/css"> -->
 <link href="css/css2/default.css" media="screen" rel="stylesheet" type="text/css">
 <link href="css/css2/animate.css" media="screen" rel="stylesheet" type="text/css">
 <link href="css/css2/nivo-lightbox.css" media="screen" rel="stylesheet" type="text/css">
@@ -30,6 +23,12 @@
 Design by: RTBWizards.com
 **************************
 -->
+<style type="text/css">
+.auto-style1 {
+	color: #fff;
+	text-align: center;
+}
+</style>
 </head>
 
 <body>
@@ -40,10 +39,10 @@ Design by: RTBWizards.com
         <div class="logo">
             <div class="brand">
                 <a href="https://www.ncmodernist.org/">
-                    <img height="73" src="https://katiewrennhansen.github.io/nc-modernist-redesign/images/nc_mod_logo.png" width="300">
+                    <img height="73" src="https://www.ncmodernist.org/nc_mod_logo.png" width="300">
                 </a>
             </div>
-            <div class="logo-subtext">Architecture You Love</div>
+            <div class="logo-subtext extra-space">Architecture You Love</div>
         </div>
    <!-- ==== Main Navigation ==== -->
             <nav>
@@ -95,72 +94,17 @@ Design by: RTBWizards.com
 </header>
 <!-- ==== page title ==== -->
 <main class="row1">
+    <div class="warning-caption extra-small center">
+        <p>Enjoy browsing, but unless otherwise noted, these houses are private property and closed to the public -- so don't go tromping around uninvited!
+            <br>
+            CTRL-F to Search Within Page
+        </p>
+    </div>
     <div class="container pageTitle">
-        <div class="inside">
-         <!-- #BeginEditable "pagetitle" -->
-            <section>
-                <div class="landing-img"></div>
+        <div class="inside hover-class">
+        <!-- #BeginEditable "pagetitle" -->
 
-                <p class="extra-small home-text left center">The 1954 Eduardo Fernando Catalano House in Raleigh NC (sadly destroyed), 
-                    North Carolina's second most famous house after Biltmore. From left to right, some of the many kids who loved it: Smitty, Ginny, Bev, Pam, and Marty in a photo by 
-                    legendary architecture photographer Ezra Stoller.
-                </p>
-                <p class="left">Who knew? North Carolina is one of the largest concentrations of Modernist houses in America! NCModernist is a 501C3 nonprofit educational archive providing donors, volunteers, and advocates information and organization to document, preserve, and promote North Carolina&rsquo;s legacy of exceptional residential Modernist architecture.</p>
-            </section>
-                    
-            <table class="icon-table">
-                <tr>
-                    <td class="center">
-                        <a href="http://www.ncmodernist.org/architects.html">
-                            <img height="70" src="https://www.usmodernist.org/gallery%20(002).png" width="70" class="auto-style5">
-                        </a>
-                    </td>
-                    <td class="center">
-                        <a href="http://www.ncmodernist.org/library.htm">
-                            <img height="70" src="https://www.usmodernist.org/library1%20(002).png" width="70" class="auto-style5" >
-                        </a>
-                    </td>
-                    <td class="center">
-                        <a href="http://www.ncmodernist.org/forsale.html">
-                            <img height="70" src="https://www.usmodernist.org/travel%20(002).png" width="70" class="auto-style5">
-                        </a>
-                    </td>
-                    <td class="center">
-                        <a href="http://www.usmodernist.org/usmodernistradio.htm">
-                            <img height="70" src="https://www.usmodernist.org/microphone-icon.jpg" width="70" class="auto-style11">
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>NC Architects and Designers</td>
-                    <td>NC Library</td>
-                    <td>NC Modernist Houses For Sale</td>
-                    <td>US Modernist Radio Podcast</td>
-                </tr>
-            </table>
-
-            <section class="border-top">
-                <h2 class="center">Underwriting Sponsors</h2>
-                <div>
-                    <a href="http://www.angelaroehl.com">
-                        <img apple-height="yes" apple-inline="yes" apple-width="yes" height="300" src="roehlad-2020b.png" v:shapes="_x0034_9B3FE1A-EBAE-4C92-AB35-C93BBD2EC2DE" width="200">
-                    </a>
-                    <a href="https://www.modhomesrealty.com/Home">
-                        <img height="300" src="2020%20ModAd%20(003).jpg" width="202" />
-                    </a> 
-                    <a href="https://www.cqchome.com">
-                        <img height="300" src="CQC-WebAd.jpg" width="200" />
-                    </a>
-                    <a href="http://www.ncmodernist.org/triangle.htm">
-                        <img height="300" src="tmacover.jpg" width="366">
-                    </a>
-                </div>
-            </section>
-
-            <section class="border-top">
-                <p class="left">NCModernist is an influential community of architecture fans continually hosting wildly popular Modernist events, giving thousands of people access to the most exciting residential architecture past and present. We are the oldest and largest group dedicated to Modernist residential design in North Carolina.</p>
-            </section>
-         <!-- #EndEditable -->
+        <!-- #EndEditable -->
         </div>
     </div>
 </main>
@@ -256,7 +200,5 @@ $('ul.slimmenu').slimmenu(
 </script>
 
 </body>
-
-<!-- #EndTemplate -->
 
 </html>
