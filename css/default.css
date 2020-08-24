@@ -2310,6 +2310,10 @@ table.gsc-search-box {
 	color: rgb(233, 2, 2)!important;
 }
 
+.ldf-committee td {
+	padding: 20px 10px;
+}
+
 /* subscription form styles */
 form.payment {
 	margin: 10px 0;
@@ -2318,7 +2322,7 @@ form.payment {
 form.payment h6,
 form.payment input {
 	display: block;
-	margin: 15px 0;
+	margin: 25px auto;
 }
 
 form.payment select {
@@ -2329,16 +2333,28 @@ form.payment select {
 form.payment input[type="submit"] {
 	border: 2px solid rgb(233, 2, 2);
 	padding: 8px 20px;
+	color: #fff;
+	background: rgb(233, 2, 2);
+	cursor: pointer;
+	transition: 200ms linear;
+}
+
+form.payment input[type="submit"]:hover {
 	background: #fff;
 	color: rgb(233, 2, 2);
 	transition: 200ms linear;
 }
 
-form.payment input[type="submit"]:hover {
-	color: #fff;
-	background: rgb(233, 2, 2);
-	cursor: pointer;
-	transition: 200ms linear;
+.flex-columns {
+	display: flex;
+	justify-content: space-between;
+}
+.column-a {
+	padding-right: 20px;
+}
+
+.t4a-events div.border-top {
+	padding-top: 40px;
 }
 
 /* media queries  */
