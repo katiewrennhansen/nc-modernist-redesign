@@ -2353,7 +2353,8 @@ form.payment input[type="submit"]:hover {
 	padding-right: 20px;
 }
 
-.t4a-events div.border-top {
+.t4a-events div.border-top,
+.architect-movies div.border-top {
 	padding-top: 40px;
 }
 
